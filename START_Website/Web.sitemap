@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+  <siteMapNode url="WebForms/Home.aspx" title="Home"  description="">
+    <siteMapNode url="" title="Productos"  description="" >
+      <siteMapNode url="WebForms/ConsolasForm.aspx" title="Consolas"  description="" />
+      <siteMapNode url="WebForms/JuegosForm.aspx" title="Juegos"  description="" />
+      <siteMapNode url="WebForms/AccesoriosForm.aspx" title="Accesorios"  description="" />
+    </siteMapNode>
+    <siteMapNode url="" title="Comunidad"  description="" >
+      <siteMapNode url="WebForms/NovedadesForm.aspx" title="Novedades"  description="" />
+      <siteMapNode url="WebForms/DescargasForm.aspx" title="Descargas"  description="" />
+      <siteMapNode url="WebForms/ForosForm.aspx" title="Foro"  description="" />      
+    </siteMapNode>
+    <siteMapNode url="WebForms/DesarrolladoresForm.aspx" title="Desarrolladores"  description="" />
+    <siteMapNode url="WebForms/MesaAyudaForm.aspx" title="Mesa de ayuda"  description="" />
+    <siteMapNode url="" title="Tu Cuenta"  description="" >
+      <siteMapNode url="WebForms/VentaForm.aspx" title="Carrito"  description="" />
+      <siteMapNode url="WebForms/ResumenCuentaForm.aspx" title="Resúmen de cuenta"  description="" />      
+    </siteMapNode>
+    <siteMapNode url="WebForms/ContactoForm.aspx" title="Contacto"  description="" />
+    <siteMapNode url="" title="Administración"  description="" >
+      <siteMapNode url="WebForms/InventarioForm.aspx" title="Inventario"  description="" />
+      <siteMapNode url="WebForms/AdminNovedadesForm.aspx" title="Novedades"  description="" />
+      <siteMapNode url="WebForms/AdminDescargasForm.aspx" title="Descargas"  description="" />
+	  <siteMapNode url="WebForms/AdminMensajesForm.aspx" title="Mensajes externos"  description="" />
+      <siteMapNode url="" title="Seguridad"  description="">
+        <siteMapNode url="WebForms/AdminUsuariosForm.aspx" title="Usuarios"  description="" />
+        <siteMapNode url="WebForms/AdminFamiliasForm.aspx" title="Familias"  description="" />        
+      </siteMapNode>
+       <siteMapNode url="WebForms/ProteccionForm.aspx" title="Acciones de sistema"  description="" />	  
+		<siteMapNode url="WebForms/AdminOCForm.aspx" title="Ordenes de compra"  description="" />
+		<siteMapNode url="WebForms/AdminProveedoresForm.aspx" title="Proveedores"  description="" />
+		<siteMapNode url="WebForms/AdminPCForm.aspx" title="Pedidos cotizacion"  description="" />
+		<siteMapNode url="WebForms/AdminPRForm.aspx" title="Pedidos reaprovisionamiento"  description="" />
+		<siteMapNode url="WebForms/AdminPagoProveedoresForm.aspx" title="Pago proveedores"  description="" />
+		<siteMapNode url="WebForms/AdminPagosForm.aspx" title="Pagos"  description="" />
+		<siteMapNode url="WebForms/AdminReparacionesForm.aspx" title="Reparaciones"  description="" />
+		<siteMapNode url="WebForms/AdministracionParametrosForm.aspx" title="Parámetros"  description="" />
+	</siteMapNode>
+    <siteMapNode url="" title="Reportes"  description="" >
+      <siteMapNode url="WebForms/ConsultarVentasForm.aspx" title="Ventas"  description="" />
+      <siteMapNode url="WebForms/ConsultarClientesForm.aspx" title="Clientes"  description="" />
+      <siteMapNode url="WebForms/ConsultarBitacoraForm.aspx" title="Bitácora"  description="" />
+      <siteMapNode url="WebForms/ConsultarNavegacionForm.aspx" title="Navegación"  description="" />
+	  <siteMapNode url="WebForms/ConsultarEncuestasForm.aspx" title="Encuestas"  description="" />
+    </siteMapNode>    
+  </siteMapNode>
+</siteMap>

@@ -1,0 +1,12 @@
+<Promociones xmlns="">
+  <Promocion id="1">
+    <nombre>Llegó el mundial</nombre>
+    <expiracion>10/10/2011</expiracion>
+    <requisitos>Alentar por Argentina!</requisitos>
+  </Promocion>
+  <Promocion id="2">
+    <nombre>Día del niño</nombre>
+    <expiracion>20/07/2011</expiracion>
+    <requisitos>Portarte bien en casa y hacer los deberes</requisitos>
+  </Promocion>
+</Promociones>

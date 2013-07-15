@@ -1,0 +1,189 @@
+﻿body 
+{
+}
+
+a
+{
+	color:Black;
+	font-style: normal;
+	font-family: Microsoft Sans Serif;
+	font-size: small;
+	font-weight: normal;
+}
+
+div
+{
+	color:Black;
+	font-style: normal;
+	font-family: Microsoft Sans Serif;
+	font-size: small;
+	font-weight: normal;
+}
+
+.LetraGeneral
+{
+ color:#333333;
+ font-size:x-small;
+ font-family:Microsoft Sans Serif;
+}
+
+.font-header
+{
+	color: #7373DB;
+	font-style: normal;
+	font-family: Microsoft Sans Serif;
+	font-size: small;
+	font-weight: normal;
+}
+
+.LetraFormateada
+{
+	color:#7373DB;
+	font-style:normal;
+	font-family:Microsoft Sans Serif;
+	font-size:x-large;
+	font-weight:bolder;
+}
+.LetraFormateadaNegra
+{
+	color:Black;
+	font-style: normal;
+	font-family:Microsoft Sans Serif;
+	font-size:medium;
+	font-weight:normal;
+}
+
+.LetraFormateadaNegraBold
+{
+	color:Black;
+	font-weight:bolder;
+	text-decoration:none;
+	font-style: normal;
+	font-family:Microsoft Sans Serif;
+	font-size:medium;
+	font-weight:normal;
+}
+
+.LetraChicaNegra
+{
+color:Black;
+font-size:small;
+font-family:Microsoft Sans Serif;
+font-weight:bold;	
+}
+
+.LetraFecha
+{
+color:#999999;
+font-size:x-small;
+font-family:Sans-Serif;
+}
+
+.gral_label
+{
+color:#7373DB;
+font-size:x-small;
+font-family:Microsoft Sans Serif; 
+}
+
+.gral_link
+{
+color:#7373DB;
+font-size:x-small;
+font-family:Microsoft Sans Serif; 
+text-decoration:underline;	
+}
+
+.gral_drop
+{
+	font-family: Microsoft Sans Serif;
+	font-size: 10px;
+	color: dimgray;
+	scrollbar-base-color: #CCCCCC; 
+	scrollbar-arrow-color: gray;
+	scrollbar-DarkShadow-Color: #CCCCCC;
+}
+
+.gral_sitemap_bar
+{
+	font-family: Microsoft Sans Serif;
+	font-size: 10px;
+	color: Gray;
+}
+.gral_menu
+{
+	font-size:x-small;	
+	background-color: #ededed;
+	border-bottom: 0px solid;
+	border-top: 0px solid;
+	border-left: 0px solid;
+	border-right: 1px solid;
+	padding-left: 10px;
+	background-image: url(images/menu_background.jpg);
+}
+
+.gral_submenu
+{
+	font-size:x-small;	
+	background-color: #ededed;
+	border-bottom: 0px solid;
+	border-top: 0px solid;
+	border-left: 0px solid;
+	border-right: 0px solid;	
+	padding: 2px;
+	background-image: url(images/menu_background.jpg);
+}
+.gral_menu_table
+{
+	background-color: #ededed;
+	background-image: url(images/menu_background.jpg);
+}
+
+.gral_text_box
+{
+	font-family: Microsoft Sans Serif;
+	font-size: 10px;
+	color: dimGray;
+	border-color: Gray;
+	border-style: solid;
+	border-width: 1px;
+	background-color: #f8f8f8;
+}
+
+.data_panel
+{
+	border-style: solid;
+	border-width:1px;
+	border-color: #CCCCCC;
+	padding: 3px;
+	text-align: left;
+	background-color: #E8E8F9;	
+}
+
+.gral_button
+{
+	border: 1px solid Gray;
+	color:Black;
+	font-size:x-small;
+	font-family:Microsoft Sans Serif;
+	font-weight:bold;
+	background-color: White;
+	filter: progid:DXImageTransform.Microsoft.Gradient(GradientType=0,StartColorStr='#E8E8F9',EndColorStr='#cccccc');
+	}
+
+.celdaGrilla
+{
+ border-bottom-width:1px;
+ border-bottom-color:#CACACA;	
+ border-bottom-style:Solid;
+}
+
+.gral_summary
+{
+	border-style: solid;
+	border-width:1px;
+	border-color: #FF9999;
+	background-color: #FFDFDF;	
+	font-size:x-small;
+	font-family:Microsoft Sans Serif;
+}

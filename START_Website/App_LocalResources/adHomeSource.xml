@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Advertisements>
+  <Ad>
+    <ImageUrl>
+      /images/Game_For_XBOX_360_Lost_Planet.jpg
+    </ImageUrl>
+    <NavigateUrl>
+      ../webForms/frmHome.aspx
+    </NavigateUrl>
+    <AlternateText>
+      Todos los juegos para las consolas de última generación
+    </AlternateText>
+      <Impressions>
+        25
+      </Impressions>
+      <Keyword>
+        Start.com
+      </Keyword>
+    </Ad>
+   <Ad>
+    <ImageUrl>
+      /images/ResidentEvil4WiiEdition.jpg
+    </ImageUrl>
+    <NavigateUrl>
+      ../webForms/frmHome.aspx
+    </NavigateUrl>
+    <AlternateText>
+      Todos los juegos para las consolas de última generación
+    </AlternateText>
+    <Impressions>
+      20
+    </Impressions>
+    <Keyword>
+      Start.com
+    </Keyword>
+  </Ad>
+  <Ad>
+    <ImageUrl>
+      /images/933036_75598_front.jpg
+    </ImageUrl>
+    <NavigateUrl>
+      ../webForms/frmHome.aspx
+    </NavigateUrl>
+    <AlternateText>
+      Todos los juegos para las consolas de última generación
+    </AlternateText>
+    <Impressions>
+      15
+    </Impressions>
+    <Keyword>
+      Start.com
+    </Keyword>
+  </Ad>
+  <Ad>
+    <ImageUrl>
+      /images/cover.gif
+    </ImageUrl>
+    <NavigateUrl>
+      ../webForms/frmHome.aspx
+    </NavigateUrl>
+    <AlternateText>
+      Todos los juegos para las consolas de última generación
+    </AlternateText>
+    <Impressions>
+      15
+    </Impressions>
+    <Keyword>
+      Start.com
+    </Keyword>
+  </Ad>  
+</Advertisements>

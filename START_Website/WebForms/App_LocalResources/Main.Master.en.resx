@@ -1,0 +1,663 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="cuGeneralResource1.ErrorMessage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cuGeneralResource1.Text" xml:space="preserve">
+    <value>*</value>
+  </data>
+  <data name="cuGeneralResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="hlLogUpResource1.Text" xml:space="preserve">
+    <value>Register</value>
+  </data>
+  <data name="hlLogUpResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="HyperLink11Resource1.Text" xml:space="preserve">
+    <value>Contact</value>
+  </data>
+  <data name="HyperLink11Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="HyperLink12Resource1.Text" xml:space="preserve">
+    <value>Spanish</value>
+  </data>
+  <data name="HyperLink12Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="HyperLink13Resource1.Text" xml:space="preserve">
+    <value>English</value>
+  </data>
+  <data name="HyperLink13Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="HyperLink1Resource1.Text" xml:space="preserve">
+    <value>Privacy policy</value>
+  </data>
+  <data name="HyperLink1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label1Resource1.Text" xml:space="preserve">
+    <value>© 2011 START.com  All rights reserved</value>
+  </data>
+  <data name="Label1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label2Resource1.Text" xml:space="preserve">
+    <value>User:</value>
+  </data>
+  <data name="Label2Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label3Resource1.Text" xml:space="preserve">
+    <value>Password:</value>
+  </data>
+  <data name="Label3Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label4Resource1.Text" xml:space="preserve">
+    <value>User:</value>
+  </data>
+  <data name="Label4Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblFamiliaResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblFamiliaResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbLogInResource1.Text" xml:space="preserve">
+    <value>Login</value>
+  </data>
+  <data name="lbLogInResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbLogOutResource1.Text" xml:space="preserve">
+    <value>Logout</value>
+  </data>
+  <data name="lbLogOutResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblUsuarioResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblUsuarioResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbRecuperoResource1.Text" xml:space="preserve">
+    <value>GetPassword</value>
+  </data>
+  <data name="lbRecuperoResource1.ToolTip" xml:space="preserve">
+    <value>Get the password: It will send your password to your email inbox</value>
+  </data>
+  <data name="lbUpadteResource1.Text" xml:space="preserve">
+    <value>Profile</value>
+  </data>
+  <data name="lbUpadteResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="MenuItemResource1.Text" xml:space="preserve">
+    <value>Home</value>
+  </data>
+  <data name="MenuItemResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="MenuItemResource1.Value" xml:space="preserve">
+    <value>Home</value>
+  </data>
+  <data name="MenuItemResource10.Text" xml:space="preserve">
+    <value>Developers</value>
+  </data>
+  <data name="MenuItemResource10.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="MenuItemResource10.Value" xml:space="preserve">
+    <value>Desarrolladores</value>
+  </data>
+  <data name="MenuItemResource11.Text" xml:space="preserve">
+    <value>Help Desk</value>
+  </data>
+  <data name="MenuItemResource11.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="MenuItemResource11.Value" xml:space="preserve">
+    <value>Mesa de ayuda</value>
+  </data>
+  <data name="MenuItemResource12.Text" xml:space="preserve">
+    <value>Cart</value>
+  </data>
+  <data name="MenuItemResource12.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="MenuItemResource12.Value" xml:space="preserve">
+    <value>Tu carrito</value>
+  </data>
+  <data name="MenuItemResource13.Text" xml:space="preserve">
+    <value>Account summary</value>
+  </data>
+  <data name="MenuItemResource13.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="MenuItemResource13.Value" xml:space="preserve">
+    <value>Resumen de cuenta</value>
+  </data>
+  <data name="MenuItemResource14.Text" xml:space="preserve">
+    <value>Account</value>
+  </data>
+  <data name="MenuItemResource14.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="MenuItemResource14.Value" xml:space="preserve">
+    <value>Tu cuenta</value>
+  </data>
+  <data name="MenuItemResource15.Text" xml:space="preserve">
+    <value>Contact</value>
+  </data>
+  <data name="MenuItemResource15.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="MenuItemResource15.Value" xml:space="preserve">
+    <value>Contáctenos</value>
+  </data>
+  <data name="MenuItemResource16.Text" xml:space="preserve">
+    <value>Stock</value>
+  </data>
+  <data name="MenuItemResource16.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="MenuItemResource16.Value" xml:space="preserve">
+    <value>Inventario</value>
+  </data>
+  <data name="MenuItemResource17.Text" xml:space="preserve">
+    <value>News</value>
+  </data>
+  <data name="MenuItemResource17.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="MenuItemResource17.Value" xml:space="preserve">
+    <value>Novedades</value>
+  </data>
+  <data name="MenuItemResource18.Text" xml:space="preserve">
+    <value>Downloads</value>
+  </data>
+  <data name="MenuItemResource18.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="MenuItemResource18.Value" xml:space="preserve">
+    <value>Descargas</value>
+  </data>
+  <data name="MenuItemResource19.Text" xml:space="preserve">
+    <value>Users</value>
+  </data>
+  <data name="MenuItemResource19.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="MenuItemResource19.Value" xml:space="preserve">
+    <value>Usuarios</value>
+  </data>
+  <data name="MenuItemResource2.Text" xml:space="preserve">
+    <value>Consoles</value>
+  </data>
+  <data name="MenuItemResource2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="MenuItemResource2.Value" xml:space="preserve">
+    <value>Consolas</value>
+  </data>
+  <data name="MenuItemResource20.Text" xml:space="preserve">
+    <value>System actions</value>
+  </data>
+  <data name="MenuItemResource20.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="MenuItemResource20.Value" xml:space="preserve">
+    <value>Protección</value>
+  </data>
+  <data name="MenuItemResource21.Text" xml:space="preserve">
+    <value>Management</value>
+  </data>
+  <data name="MenuItemResource21.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="MenuItemResource21.Value" xml:space="preserve">
+    <value>Administración</value>
+  </data>
+  <data name="MenuItemResource22.Text" xml:space="preserve">
+    <value>Sales</value>
+  </data>
+  <data name="MenuItemResource22.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="MenuItemResource22.Value" xml:space="preserve">
+    <value>Ventas</value>
+  </data>
+  <data name="MenuItemResource23.Text" xml:space="preserve">
+    <value>Client</value>
+  </data>
+  <data name="MenuItemResource23.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="MenuItemResource23.Value" xml:space="preserve">
+    <value>Clientes</value>
+  </data>
+  <data name="MenuItemResource24.Text" xml:space="preserve">
+    <value>Log</value>
+  </data>
+  <data name="MenuItemResource24.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="MenuItemResource24.Value" xml:space="preserve">
+    <value>Bitacora</value>
+  </data>
+  <data name="MenuItemResource25.Text" xml:space="preserve">
+    <value>Navigation</value>
+  </data>
+  <data name="MenuItemResource25.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="MenuItemResource25.Value" xml:space="preserve">
+    <value>Navegación</value>
+  </data>
+  <data name="MenuItemResource26.Text" xml:space="preserve">
+    <value>Reports</value>
+  </data>
+  <data name="MenuItemResource26.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="MenuItemResource26.Value" xml:space="preserve">
+    <value>Reportes</value>
+  </data>
+  <data name="MenuItemResource27.Text" xml:space="preserve">
+    <value>Pays</value>
+  </data>
+  <data name="MenuItemResource27.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="MenuItemResource27.Value" xml:space="preserve">
+    <value>Pagos</value>
+  </data>
+  <data name="MenuItemResource28.Text" xml:space="preserve">
+    <value>Repairments</value>
+  </data>
+  <data name="MenuItemResource28.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="MenuItemResource28.Value" xml:space="preserve">
+    <value>Reparaciones</value>
+  </data>
+  <data name="MenuItemResource29.Text" xml:space="preserve">
+    <value>Inbox</value>
+  </data>
+  <data name="MenuItemResource29.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="MenuItemResource29.Value" xml:space="preserve">
+    <value>Mensajes externos</value>
+  </data>
+  <data name="MenuItemResource3.Text" xml:space="preserve">
+    <value>Games</value>
+  </data>
+  <data name="MenuItemResource3.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="MenuItemResource3.Value" xml:space="preserve">
+    <value>Juegos</value>
+  </data>
+  <data name="MenuItemResource4.Text" xml:space="preserve">
+    <value>Accesories</value>
+  </data>
+  <data name="MenuItemResource4.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="MenuItemResource4.Value" xml:space="preserve">
+    <value>Accesorios</value>
+  </data>
+  <data name="MenuItemResource5.Text" xml:space="preserve">
+    <value>Products</value>
+  </data>
+  <data name="MenuItemResource5.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="MenuItemResource5.Value" xml:space="preserve">
+    <value>Productos</value>
+  </data>
+  <data name="MenuItemResource6.Text" xml:space="preserve">
+    <value>News</value>
+  </data>
+  <data name="MenuItemResource6.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="MenuItemResource6.Value" xml:space="preserve">
+    <value>Novedades</value>
+  </data>
+  <data name="MenuItemResource7.Text" xml:space="preserve">
+    <value>Downloads</value>
+  </data>
+  <data name="MenuItemResource7.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="MenuItemResource7.Value" xml:space="preserve">
+    <value>Descargas</value>
+  </data>
+  <data name="MenuItemResource8.Text" xml:space="preserve">
+    <value>Forum</value>
+  </data>
+  <data name="MenuItemResource8.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="MenuItemResource8.Value" xml:space="preserve">
+    <value>Foro</value>
+  </data>
+  <data name="MenuItemResource9.Text" xml:space="preserve">
+    <value>Community</value>
+  </data>
+  <data name="MenuItemResource9.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="MenuItemResource9.Value" xml:space="preserve">
+    <value>Comunidad</value>
+  </data>
+  <data name="menuSTARTResource1.ScrollDownText" xml:space="preserve">
+    <value>Scroll down</value>
+  </data>
+  <data name="menuSTARTResource1.ScrollUpText" xml:space="preserve">
+    <value>Scroll up</value>
+  </data>
+  <data name="menuSTARTResource1.SkipLinkText" xml:space="preserve">
+    <value>Skip Navigation Links</value>
+  </data>
+  <data name="menuSTARTResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Panel1Resource1.GroupingText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Panel1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Panel2Resource1.GroupingText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Panel2Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="pnlLogInResource1.GroupingText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="pnlLogInResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="pnlWelcomeResource1.GroupingText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="pnlWelcomeResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RequiredFieldValidator1Resource1.ErrorMessage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RequiredFieldValidator1Resource1.Text" xml:space="preserve">
+    <value>*</value>
+  </data>
+  <data name="RequiredFieldValidator1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rfv0Resource1.ErrorMessage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rfv0Resource1.Text" xml:space="preserve">
+    <value>*</value>
+  </data>
+  <data name="rfv0Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="smpMenuVerticalResource1.PathSeparator" xml:space="preserve">
+    <value> &gt; </value>
+  </data>
+  <data name="smpMenuVerticalResource1.SkipLinkText" xml:space="preserve">
+    <value>Skip Navigation Links</value>
+  </data>
+  <data name="smpMenuVerticalResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtContrasenaResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtContrasenaResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtNicknameResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtNicknameResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="MenuItemResource118.Text" xml:space="preserve">
+    <value>Discounts</value>
+  </data>
+  <data name="MenuItemResource118.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="MenuItemResource118.Value" xml:space="preserve">
+    <value>Promociones</value>
+  </data>
+  <data name="MenuItemResource120.Text" xml:space="preserve">
+    <value>Protection</value>
+  </data>
+  <data name="MenuItemResource120.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="MenuItemResource120.Value" xml:space="preserve">
+    <value>Protección</value>
+  </data>
+  <data name="MenuItemResource122.Text" xml:space="preserve">
+    <value>Vendors</value>
+  </data>
+  <data name="MenuItemResource122.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="MenuItemResource122.Value" xml:space="preserve">
+    <value>Proveedores</value>
+  </data>
+  <data name="MenuItemResource123.Text" xml:space="preserve">
+    <value>Buying Note</value>
+  </data>
+  <data name="MenuItemResource123.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="MenuItemResource123.Value" xml:space="preserve">
+    <value>Ordenes de compra</value>
+  </data>
+  <data name="MenuItemResource124.Text" xml:space="preserve">
+    <value>Buying request</value>
+  </data>
+  <data name="MenuItemResource124.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="MenuItemResource124.Value" xml:space="preserve">
+    <value>Pedidos de Reaprovisionamiento</value>
+  </data>
+  <data name="MenuItemResource125.Text" xml:space="preserve">
+    <value>Cost request</value>
+  </data>
+  <data name="MenuItemResource125.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="MenuItemResource125.Value" xml:space="preserve">
+    <value>Pedidos Cotizacion</value>
+  </data>
+  <data name="MenuItemResource126.Text" xml:space="preserve">
+    <value>Vendors payment</value>
+  </data>
+  <data name="MenuItemResource126.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="MenuItemResource126.Value" xml:space="preserve">
+    <value>Pago proveedores</value>
+  </data>
+  <data name="MenuItemResource127.Text" xml:space="preserve">
+    <value>Roles</value>
+  </data>
+  <data name="MenuItemResource127.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="MenuItemResource127.Value" xml:space="preserve">
+    <value>Familia</value>
+  </data>
+  <data name="MenuItemResource222.Text" xml:space="preserve">
+    <value>Sales</value>
+  </data>
+  <data name="MenuItemResource222.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="MenuItemResource222.Value" xml:space="preserve">
+    <value>Ventas</value>
+  </data>
+  <data name="MenuItemResource30.Text" xml:space="preserve">
+    <value>Surveys</value>
+  </data>
+  <data name="MenuItemResource30.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="MenuItemResource30.Value" xml:space="preserve">
+    <value>Encuestas</value>
+  </data>
+  <data name="MenuItemResource31.Text" xml:space="preserve">
+    <value>Survey</value>
+  </data>
+  <data name="MenuItemResource31.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="MenuItemResource31.Value" xml:space="preserve">
+    <value>Encuestas</value>
+  </data>
+  <data name="HyperLink122Resource1.Text" xml:space="preserve">
+    <value>The group</value>
+  </data>
+  <data name="MenuItemResource228.Text" xml:space="preserve">
+    <value>Parameters</value>
+  </data>
+  <data name="MenuItemResource228.Value" xml:space="preserve">
+    <value>Parametros</value>
+  </data>
+</root>

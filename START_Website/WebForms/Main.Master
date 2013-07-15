@@ -1,0 +1,317 @@
+<%@ Master Language="VB" AutoEventWireup="false" CodeFile="Main.master.vb" Inherits="WebForms_Main" %>
+<%@ Register assembly="AjaxControlToolkit" namespace="AjaxControlToolkit" tagprefix="asp" %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head runat=server>
+    <meta http-equiv="X-UA-Compatible" content="IE=7"/>
+    <meta http-equiv="Expires" CONTENT="0" />
+    <meta http-equiv="Cache-Control" CONTENT="no-cache" />
+    <meta http-equiv="Pragma" CONTENT="no-cache" />    
+    <link href="../App_Themes/START-theme.css"  rel="StyleSheet"  type="text/css" />   
+    <style type="text/css">
+        .style1
+        {
+            height: 18px;
+        }
+        .style2
+        {
+            height: 134px;
+        }
+    </style>
+</head>
+<body background=  "../images/white_stripe.jpg" >
+    <form id="form1" runat="server">    
+        <div style="background-image: url('../images/header1.png'); height: 279px; width: 1021px; text-align: right; vertical-align: bottom;" 
+            align="right">
+            <table style="padding-right:5px; padding-top: 20px;" cellpadding="0" 
+                cellspacing="0" align="right" >
+                <tr>
+                    <td>
+                    </td>
+                    <td style="width: 30px;">
+                    </td>
+                    <td>
+                        &nbsp;</td>
+                    <td>
+                    </td>
+                    <td  >
+            <asp:HyperLink ID="HyperLink12" NavigateUrl="Home.aspx?lang=ES"  
+                    Font-Underline=False runat="server" CssClass="LetraGeneral" 
+                            meta:resourcekey="HyperLink12Resource1" Text="Español"></asp:HyperLink>
+                        &nbsp;
+            <asp:HyperLink ID="HyperLink13" NavigateUrl="Home.aspx?lang=EN"  
+                    Font-Underline=False runat="server" CssClass="LetraGeneral" 
+                            meta:resourcekey="HyperLink13Resource1" Text="English"></asp:HyperLink>
+                    </td>
+                    <td  >
+                        &nbsp;</td>
+                </tr>
+                <tr>
+                    <td colspan=6 class="style2">
+                        </td>                    
+                </tr>
+                <tr>
+                    <td colspan=6 class="style1" align=left>
+                                        <asp:CustomValidator ID="cuGeneral" runat="server" Display="Dynamic" 
+                                            meta:resourcekey="cuGeneralResource1" Text="*"></asp:CustomValidator>
+                        </td>                    
+                </tr>
+                <tr>                        
+                    <td align="left" colspan="6">
+                        <asp:Panel ID="pnlLogIn" runat="server" meta:resourcekey="pnlLogInResource1">
+                            <table style="padding-right:5px; padding-top: 20px;" cellpadding="0" 
+                                cellspacing="2" class="LetraGeneral">
+                                <tr>
+                                    <td>
+                                        &nbsp;</td>
+                                    <td>
+                                        <asp:Label ID="Label2" runat="server" meta:resourcekey="Label2Resource1" 
+                                            Text="Usuario:"></asp:Label>
+                                    </td>
+                                    <td style="width: 30px;">
+                                        <asp:TextBox ID="txtNickname" runat="server"  Width="61px" 
+                            CssClass="gral_text_box" meta:resourcekey="txtNicknameResource1" ></asp:TextBox>
+                                    </td>
+                                    <td>
+                                        <asp:RequiredFieldValidator ID="rfv0" runat="server" Display=Dynamic
+                            ControlToValidate="txtNickname"  Font-Size="Small" 
+                            ValidationGroup="LogIn" meta:resourcekey="rfv0Resource1" Text="*"></asp:RequiredFieldValidator>
+                                        <asp:RequiredFieldValidator ID="rfv1" runat="server"  Display=Dynamic
+                                            ControlToValidate="txtNickname" Font-Size="Small" 
+                                            meta:resourcekey="rfv0Resource1" Text="*" ValidationGroup="Recupero"></asp:RequiredFieldValidator>
+                                    </td>
+                                    <td>
+                                        <asp:Label ID="Label3" runat="server" meta:resourcekey="Label3Resource1" 
+                                            Text="Contraseña:"></asp:Label>
+                                    </td>
+                                    <td>
+                                        <asp:TextBox ID="txtContrasena" runat="server" CssClass="gral_text_box" Width="61px" 
+                            TextMode="Password" meta:resourcekey="txtContrasenaResource1"></asp:TextBox>
+                                    </td>
+                                    <td>
+                                        <asp:RequiredFieldValidator ID="RequiredFieldValidator1" runat="server" 
+                            ControlToValidate="txtContrasena"  Font-Size="Small" 
+                            ValidationGroup="LogIn" meta:resourcekey="RequiredFieldValidator1Resource1" Text="*"></asp:RequiredFieldValidator>
+                                    </td>
+                                    <td> <asp:LinkButton ID="lbLogIn" runat="server" CssClass="LetraGeneral" 
+                            Font-Underline="False" ValidationGroup="LogIn" meta:resourcekey="lbLogInResource1" 
+                                            Text="Ingresar"></asp:LinkButton>
+                                    </td>
+                                    <td>
+                                        -</td>
+                                    <td  >
+                                        <asp:HyperLink ID="hlLogUp"   
+                    Font-Underline=False runat="server" CssClass="LetraGeneral" meta:resourcekey="hlLogUpResource1" 
+                                            Text="Registrarse" 
+                                            NavigateUrl="~/webForms/AltaUsuariosForm.aspx?Modo=A"></asp:HyperLink>
+                                    </td>
+                                    <td>
+                                        -</td>
+                                    <td>
+                                        <asp:HyperLink ID="lbRecupero" runat="server" CssClass="LetraGeneral" 
+                                            Font-Underline="False" meta:resourcekey="lbRecuperoResource1" Text="Recupero" 
+                                            ToolTip="Recupero de contraseña: Esta será enviada a su dirección de email." 
+                                            navigateurl="~/webForms/RecuperoForm.aspx"></asp:HyperLink>
+                                    </td>
+                                    <td  >
+                                        &nbsp;</td>
+                                </tr>                                
+                            </table>                           
+                        </asp:Panel>
+                        <asp:Panel ID="pnlWelcome" runat="server" HorizontalAlign="Right" 
+                            Visible="False" meta:resourcekey="pnlWelcomeResource1">
+                            <table style="padding-right:5px; padding-top: 20px;" cellpadding="0" cellspacing="0" class="LetraGeneral">
+                                <tr>
+                                    <td align="right">
+                                        <asp:Label ID="Label4" runat="server" meta:resourcekey="Label4Resource1" 
+                                            Text="Usuario:"></asp:Label>
+                                    </td>
+                                    <td>
+                                        <asp:Label ID="lblUsuario" runat="server" meta:resourcekey="lblUsuarioResource1" 
+                                            ></asp:Label>
+                                        &nbsp;-
+                                        </td>
+                                    <td>
+                                        <asp:Label ID="lblFamilia" runat="server" meta:resourcekey="lblFamiliaResource1" 
+                                            ></asp:Label>
+                                        &nbsp;-</td>
+                                    <td style="width: 91px;">
+                                        <asp:LinkButton ID="lbUpadte" runat="server" CssClass="gral_link" 
+                                            Font-Underline="False" meta:resourcekey="lbUpadteResource1" 
+                                            Text="Datos personales" 
+                                            PostBackUrl="~/webForms/AltaUsuariosForm.aspx?Modo=M"></asp:LinkButton>
+                                        &nbsp;-</td>
+                                    <td>
+                                        <asp:LinkButton ID="lbLogOut" runat="server" CssClass="LetraGeneral" 
+                                            Font-Underline="False" meta:resourcekey="lbLogOutResource1" Text="Salir"></asp:LinkButton>
+                                    </td>
+                                    <td style="width: 11px;">
+                                        &nbsp;</td>
+                                </tr>                                
+                            </table>
+                        </asp:Panel>
+                    </td>
+                </tr>
+            </table>
+        </div>              
+        <div style="padding-left:10px; background-image: url('../images/bg.png');  width: 1013px;">                   
+        <asp:Menu ID="menuSTART"  runat="server" Orientation="Horizontal" 
+             Font-Size="X-Small" ForeColor="#333333" Height="22px" Width=99% 
+             StaticEnableDefaultPopOutImage="False" CssClass="gral_link" 
+             meta:resourcekey="menuSTARTResource1">
+						<DynamicMenuItemStyle CssClass="gral_submenu" />		
+						<Items>
+                                <asp:MenuItem Text="Home" NavigateUrl="~/WebForms/Home.aspx" Value="Home" 
+                                    meta:resourcekey="MenuItemResource1"></asp:MenuItem>
+                                <asp:MenuItem Text="Productos" Value="Productos" 
+                                    meta:resourcekey="MenuItemResource5">
+                                    <asp:MenuItem Text="Consolas" NavigateUrl="~/WebForms/ConsolasForm.aspx" 
+                                        Value="Consolas" meta:resourcekey="MenuItemResource2"></asp:MenuItem>
+                                    <asp:MenuItem Text="Juegos" NavigateUrl="~/WebForms/JuegosForm.aspx" 
+                                        Value="Juegos" meta:resourcekey="MenuItemResource3"></asp:MenuItem>
+                                    <asp:MenuItem Text="Accesorios" NavigateUrl="~/WebForms/AccesoriosForm.aspx" 
+                                        Value="Accesorios" meta:resourcekey="MenuItemResource4"></asp:MenuItem>
+                                </asp:MenuItem>
+                                 <asp:MenuItem Text="Comunidad" Value="Comunidad" 
+                                    meta:resourcekey="MenuItemResource9">
+                                 <asp:MenuItem Text="Novedades" NavigateUrl="~/WebForms/NovedadesForm.aspx" 
+                                         Value="Novedades" meta:resourcekey="MenuItemResource6"></asp:MenuItem>
+                                <asp:MenuItem Text="Descargas" NavigateUrl="~/WebForms/DescargasForm.aspx" 
+                                         Value="Descargas" meta:resourcekey="MenuItemResource7"></asp:MenuItem>
+                                <asp:MenuItem Text="Foro" NavigateUrl="~/WebForms/ForosForm.aspx" Value="Foro" 
+                                         meta:resourcekey="MenuItemResource8"></asp:MenuItem>
+                                 </asp:MenuItem>                                
+                                <asp:MenuItem Text="Desarrolladores" 
+                                    NavigateUrl="~/WebForms/DesarrolladoresForm.aspx" Value="Desarrolladores" 
+                                    meta:resourcekey="MenuItemResource10"></asp:MenuItem>
+                                <asp:MenuItem Text="Mesa de ayuda" NavigateUrl="~/WebForms/MesaAyudaForm.aspx" 
+                                    Value="Mesa de ayuda" meta:resourcekey="MenuItemResource11"></asp:MenuItem>
+                                <asp:MenuItem Text="Tu cuenta" Value="Tu cuenta" 
+                                    meta:resourcekey="MenuItemResource14">
+                                    <asp:MenuItem NavigateUrl="~/WebForms/VentaForm.aspx" Text="Tu carrito" 
+                                        Value="Tu carrito" meta:resourcekey="MenuItemResource12"></asp:MenuItem>
+                                    <asp:MenuItem Text="Resumen de cuenta" 
+                                        NavigateUrl="~/WebForms/ResumenCuentaForm.aspx" Value="Resumen de cuenta" 
+                                        meta:resourcekey="MenuItemResource13"></asp:MenuItem>
+                                </asp:MenuItem>
+                                <asp:MenuItem Text="Contáctenos" NavigateUrl="~/WebForms/ContactoForm.aspx" 
+                                    Value="Contáctenos" meta:resourcekey="MenuItemResource15"></asp:MenuItem>                                
+                                <asp:MenuItem Text="Administración" Value="Administración" 
+                                    meta:resourcekey="MenuItemResource21" >
+                                    <asp:MenuItem Text="Inventario" NavigateUrl="~/WebForms/InventarioForm.aspx" 
+                                        Value="Inventario" meta:resourcekey="MenuItemResource16"></asp:MenuItem>
+                                                                        <asp:MenuItem Text="Novedades" 
+                                        NavigateUrl="~/WebForms/AdminNovedadesForm.aspx" Value="Novedades" 
+                                        meta:resourcekey="MenuItemResource17"></asp:MenuItem>
+                                    <asp:MenuItem Text="Promociones" Value="Promociones" 
+                                        NavigateUrl="~/WebForms/AdminPromocionesForm.aspx" 
+                                        meta:resourcekey="MenuItemResource118"></asp:MenuItem>
+                                    <asp:MenuItem Text="Descargas" NavigateUrl="~/WebForms/AdminDescargasForm.aspx" 
+                                        Value="Descargas" meta:resourcekey="MenuItemResource18"></asp:MenuItem>
+                                                                        <asp:MenuItem meta:resourceKey="MenuItemResource29" 
+                                        NavigateUrl="~/WebForms/AdminMensajesForm.aspx" Text="Mensajes externos" 
+                                        Value="Mensajes externos"></asp:MenuItem>
+                                                                        <asp:MenuItem Text="Seguridad" 
+                                        Value="Seguridad" meta:resourcekey="MenuItemResource21">
+                                                                            <asp:MenuItem NavigateUrl="~/WebForms/AdminUsuariosForm.aspx" Text="Usuarios" 
+                                                                                Value="Usuarios" meta:resourcekey="MenuItemResource19"></asp:MenuItem>
+                                                                            <asp:MenuItem NavigateUrl="~/WebForms/AdminFamiliasForm.aspx" Text="Familia" 
+                                                                                Value="Familia" meta:resourcekey="MenuItemResource127"></asp:MenuItem>
+                                    </asp:MenuItem>
+                                    <asp:MenuItem Text="Acciones de sistema" 
+                                        NavigateUrl="~/WebForms/ProteccionForm.aspx" Value="Protección" 
+                                        meta:resourcekey="MenuItemResource120"></asp:MenuItem>
+                                    <asp:MenuItem NavigateUrl="~/WebForms/AdminProveedoresForm.aspx" 
+                                        Text="Proveedores" Value="Proveedores" 
+                                        meta:resourcekey="MenuItemResource122"></asp:MenuItem>
+                                    <asp:MenuItem NavigateUrl="~/WebForms/AdminOCForm.aspx" 
+                                        Text="Ordenes de compra" Value="Ordenes de compra" 
+                                        meta:resourcekey="MenuItemResource123"></asp:MenuItem>
+                                    <asp:MenuItem NavigateUrl="~/WebForms/AdminPRForm.aspx" 
+                                        Text="Pedidos Reaprovisionamiento" Value="Pedidos Reaprovisionamiento" 
+                                        meta:resourcekey="MenuItemResource124">
+                                    </asp:MenuItem>
+                                    <asp:MenuItem NavigateUrl="~/WebForms/AdminPCForm.aspx" 
+                                        Text="Pedidos Cotizacion" Value="Pedidos Cotizacion" 
+                                        meta:resourcekey="MenuItemResource125"></asp:MenuItem>
+                                    <asp:MenuItem NavigateUrl="~/WebForms/AdminPagoProveedoresForm.aspx" 
+                                        Text="Pago proveedores" Value="Pago proveedores" 
+                                        meta:resourcekey="MenuItemResource126"></asp:MenuItem>
+                                    <asp:MenuItem meta:resourceKey="MenuItemResource27" 
+                                        NavigateUrl="~/WebForms/AdminPagosForm.aspx" Text="Pagos" Value="Pagos">
+                                    </asp:MenuItem>
+                                    <asp:MenuItem meta:resourceKey="MenuItemResource28" 
+                                        NavigateUrl="~/WebForms/AdminReparacionesForm.aspx" Text="Reparaciones" 
+                                        Value="Reparaciones"></asp:MenuItem>
+                                    <asp:MenuItem meta:resourceKey="MenuItemResource228" 
+                                        NavigateUrl="~/WebForms/AdministracionParametrosForm.aspx" Text="Parámetros" 
+                                        Value="Parametros"></asp:MenuItem>
+                                </asp:MenuItem>
+                                <asp:MenuItem Text="Reportes" Value="Reportes" meta:resourcekey="MenuItemResource26">
+                                    <asp:MenuItem Text="Ventas" NavigateUrl="~/WebForms/ConsultarVentasForm.aspx" 
+                                        Value="Ventas" meta:resourcekey="MenuItemResource222"></asp:MenuItem>
+                                    <asp:MenuItem Text="Clientes" 
+                                        NavigateUrl="~/WebForms/ConsultarClientesForm.aspx" Value="Clientes" 
+                                        meta:resourcekey="MenuItemResource23"></asp:MenuItem>
+                                    <asp:MenuItem Text="Bitacora" 
+                                        NavigateUrl="~/WebForms/ConsultarBitacoraForm.aspx" Value="Bitacora" 
+                                        meta:resourcekey="MenuItemResource24"></asp:MenuItem>                                   
+                                    <asp:MenuItem NavigateUrl="~/WebForms/ConsultarEncuestasForm.aspx" Text="Encuestas"                                     
+                                    Value="Encuestas" meta:resourcekey="MenuItemResource31"></asp:MenuItem>
+                                </asp:MenuItem>
+                            </Items>								
+						<LevelSubMenuStyles>
+                            <asp:SubMenuStyle CssClass="gral_menu" Font-Underline="False" />
+                            <asp:SubMenuStyle BorderColor="#CCCCCC" BorderWidth="1px" 
+                                Font-Underline="False" />
+                        </LevelSubMenuStyles>
+						</asp:Menu>	
+	    </div>
+	    	<div style="padding-left:10px; background-image: url('../images/bg.png'); width: 1013px;">
+            <div style="background-image: url('../images/menu_separator.gif'); width: 1004px; height:1px"></div>
+        </div>
+	    <div style="padding-left:10px; background-image: url('../images/bg.png');  width: 1013px;">                   
+	    &nbsp;&nbsp;&nbsp;
+            <asp:SiteMapPath ID="smpMenuVertical" runat="server" CssClass="LetraGeneral" 
+                meta:resourcekey="smpMenuVerticalResource1">
+                <NodeStyle CssClass="LetraGeneral" />
+                <RootNodeStyle CssClass="gral_label" />
+            </asp:SiteMapPath>
+	    </div>
+	
+        <asp:Panel  ID="Panel4"  BackImageUrl="../images/bg.png" 
+            runat="server" Width="1024px" BorderStyle="None" BorderWidth="0px" 
+            meta:resourcekey="Panel2Resource1"> 
+            <asp:Panel  runat="server" ID="Panel2"  style="margin-left: 19px" Width="980px" meta:resourcekey="Panel1Resource1"> 
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server"></asp:ContentPlaceHolder>               
+            </asp:Panel>        
+        </asp:Panel>   
+        <div style="padding: 0px; margin: 0px" >
+        <div align="center" style="background-image: url('../images/foot.png'); text-align: center; vertical-align: middle; height: 80px; width: 1022px;"> 
+            <br />
+            <br />
+            <div>
+            <asp:HyperLink ID="HyperLink2" NavigateUrl="~/webForms/QuienesSomosForm.aspx"  
+                    Font-Underline=False runat="server" CssClass="LetraGeneral" 
+                    meta:resourcekey="HyperLink122Resource1" Text="El grupo"></asp:HyperLink>
+             &nbsp - &nbsp         
+            <asp:HyperLink ID="HyperLink11" NavigateUrl="~/webForms/ContactoForm.aspx"  
+                    Font-Underline=False runat="server" CssClass="LetraGeneral" 
+                    meta:resourcekey="HyperLink11Resource1" Text="Contáctenos"></asp:HyperLink>
+             &nbsp - &nbsp
+               <asp:HyperLink ID="HyperLink1" NavigateUrl="~/webForms/CopyrightForm.aspx"  
+                    Font-Underline=False runat="server" CssClass="LetraGeneral" 
+                    meta:resourcekey="HyperLink1Resource1" Text="Política de privacidad"></asp:HyperLink>
+            </div>          
+            <asp:Label ID="Label1" runat="server" CssClass="gral_label" 
+                Text="© 2011 START.com  Todos los derechos reservados" 
+                meta:resourcekey="Label1Resource1"></asp:Label>
+        </div>
+        </div>
+        <asp:SiteMapDataSource ID="SiteMapDataSource1" runat="server" 
+            SiteMapProvider="STARTNET.sitemap" StartingNodeUrl="~/WebForms/Home.aspx" />
+        <asp:ToolkitScriptManager ID="ToolkitScriptManager1" runat="server" 
+            CombineScripts="True"></asp:ToolkitScriptManager>
+    </form>
+    </body>
+</html>

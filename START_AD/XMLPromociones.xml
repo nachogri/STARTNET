@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--Estas son las promos vigentes-->
+<Promociones>
+  <Promocion id="502e747f-5d98-41e2-8e56-05f3ecdf97b7">
+    <nombre>SuperPromo Play 3</nombre>
+    <expiracion>13/06/2012</expiracion>
+    <requisitos>Llevate la mejor consola del momento con un descuento especial del 30%</requisitos>
+    <Promocion id="86cecd91-9a38-4905-a1b7-85349f6d3030">
+      <nombre>Promo Navidad - XBOX 50% off</nombre>
+      <expiracion>30/12/2011</expiracion>
+      <requisitos>Pedir un deseo</requisitos>
+    </Promocion>
+  </Promocion>
+</Promociones>
